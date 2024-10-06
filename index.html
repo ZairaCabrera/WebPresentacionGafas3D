@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- estilo de fuente montserrat de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    
+    <!-- añado un estilo de flechas para el slide -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- SLIDE RESPONSIVE -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" style="width: 100%;">
+
+        <div id="titulo_slide" class="container-fixed text-center pt-0">
+            <div class="row">
+                <div class="col-xs-6 pf-5 text-center col-md-12 pt-2">
+                    <h1 class="tamaño">NUEVAS GAFAS DE REALIDAD VIRTUAL</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/slide_imagen.png" class="d-block w-100 img-fluid" alt="slide1">
+
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/slide_imagenPartes.png" class="d-block w-100 img-fluid" alt="slide2">
+
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/slide_persona.png" class="d-block w-100 img-fluid" alt="slide3">
+
+            </div>
+
+            <div id="titulo_slide2" class="container position-absolute">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-end m-0 d-none d-lg-block">VisionXPro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden"></span>
+        </a>
+
+
+    </div>
+
+    <!-- TITULO MODELOS -->
+
+    <div class="container pt-5 pb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-auto">
+                <div class="line"></div>
+            </div>
+            <div class="col-auto">
+                <h1 id="modelos" class="tamaño" class="text-center p-2">MODELOS</h1>
+            </div>
+            <div class="col-auto">
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ACORDEON -->
+
+
+    <div class="container-fluid p-0">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button id="boton1"  class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <p class="tamaño-acordeon">VisionXPro One</p>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <img class="img-fluid" id="gafas1" src="imagenes/gafas1.png" alt="gafas1">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <p > <strong>Resolución:</strong> Dual 4K OLED Displays. </p>
+                                <p> <strong>Color:</strong> Negro mate con acentos cromados. </p>
+                                <p> <strong>Batería:</strong> Batería de ion-litio de larga duración, con hasta 8 horas.
+                                </p>
+                                <p> <strong>Campo de Visión (FoV):</strong> 110 grados, proporcionando una experiencia
+                                    de
+                                    realidad virtual amplia y envolvente. </p>
+                                <p> <strong>Tasa de Refresco:</strong> 120 Hz, para un movimiento fluido y una
+                                    experiencia de
+                                    juego sin latencia. </p>
+                                <p> <strong>Conectividad:</strong> WiFi 6 y Bluetooth 5.2 para una conectividad
+                                    inalámbrica
+                                    rápida y fiable con otros dispositivos. </p>
+                                <p> <strong>Peso:</strong>Aproximadamente 500 gramos, equilibrado para garantizar
+                                    comodidad
+                                    durante sesiones prolongadas. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button id="boton2" class="accordion-button collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <p class="tamaño-acordeon">VisionXPro Future</p> 
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <img class="img-fluid" id="gafas2" src="imagenes/gafas3.png" alt="gafas2">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <p> <strong>Resolución:</strong> Dual 4K OLED Displays. </p>
+                                <p> <strong>Color:</strong> Negro mate con acentos cromados. </p>
+                                <p> <strong>Batería:</strong> Batería de ion-litio de larga duración, con hasta 8 horas.
+                                </p>
+                                <p> <strong>Campo de Visión (FoV):</strong> 110 grados, proporcionando una experiencia
+                                    de
+                                    realidad virtual amplia y envolvente. </p>
+                                <p> <strong>Tasa de Refresco:</strong> 120 Hz, para un movimiento fluido y una
+                                    experiencia de
+                                    juego sin latencia. </p>
+                                <p> <strong>Conectividad:</strong> WiFi 6 y Bluetooth 5.2 para una conectividad
+                                    inalámbrica
+                                    rápida y fiable con otros dispositivos. </p>
+                                <p> <strong>Peso:</strong>Aproximadamente 500 gramos, equilibrado para garantizar
+                                    comodidad
+                                    durante sesiones prolongadas. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button id="boton3" class="accordion-button collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <p class="tamaño-acordeon">VisionXPro 3-attidnattive</p>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <img class="img-fluid" id="gafas3" src="imagenes/gafas2.png" alt="gafas3">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <p> <strong>Resolución:</strong> Dual 4K OLED Displays. </p>
+                                <p> <strong>Color:</strong> Negro mate con acentos cromados. </p>
+                                <p> <strong>Batería:</strong> Batería de ion-litio de larga duración, con hasta 8 horas.
+                                </p>
+                                <p> <strong>Campo de Visión (FoV):</strong> 110 grados, proporcionando una experiencia
+                                    de
+                                    realidad virtual amplia y envolvente. </p>
+                                <p> <strong>Tasa de Refresco:</strong> 120 Hz, para un movimiento fluido y una
+                                    experiencia de
+                                    juego sin latencia. </p>
+                                <p> <strong>Conectividad:</strong> WiFi 6 y Bluetooth 5.2 para una conectividad
+                                    inalámbrica
+                                    rápida y fiable con otros dispositivos. </p>
+                                <p> <strong>Peso:</strong>Aproximadamente 500 gramos, equilibrado para garantizar
+                                    comodidad
+                                    durante sesiones prolongadas. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="row custom-row center-row">
+          <div class="col-lg-3 custom-col">
+            <img src="imagenes/viñeta1.png" alt="Imagen 1" class="image float-left mr-3">
+            <h3>Innovación Visual</h3>
+            <p>Sumérgete en mundos virtuales <br>con nuestra pantalla Dual 4K<br> OLED. La combinación de <br>colores vivos y detalles<br>extraordinarios te llevará a una<br>experiencia visual sin<br>precedentes. Perfecto para<br>juegos, entrenamiento virtual y<br>exploración de entornos 3D.</p>
+          </div>
+          <div class="col-lg-3 custom-col">
+            <img src="imagenes/viñeta2.png" alt="Imagen 2" class="image float-left mr-3">
+            <h3>Confort y Diseño</h3>
+            <p>Nuestras gafas VisionX Pro están<br>diseñadas pensando en tu<br>comodidad. Con un peso<br>equilibrado de solo 500 gramos y<br>un acolchado suave, podrás<br>disfrutar de largas sesiones de<br>realidad virtual sin molestias. Su<br>diseño elegante y moderno te<br>hará destacar.</p>
+          </div>
+          <div class="col-lg-3 custom-col">
+            <img src="imagenes/viñeta3.png" alt="Imagen 3" class="image float-left mr-3">
+            <h3>Tecnología de Conectividad</h3>
+            <p>Mantente conectado sin cables.<br>Con WiFi 6 y Bluetooth 5.2, las<br>VisionX Pro ofrecen una<br>experiencia VR sin<br>interrupciones. Su compatibilidad<br>con múltiples plataformas te<br>permite explorar un vasto<br>universo de contenido y<br>aplicaciones.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row custom-row center-row">
+        <div class="col-lg-4 col-sm-10 columna-texto">
+            <p>Las primeras y únicas gafas compatibles con PS5 VisiónXpro</p>
+          </div>
+        <div class="col-sm-8 contact-form mx-xs-8 col-lg-4">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+            </div>
+            <div class="form-group">
+              <select class="form-control" id="modelo">
+                <option value="1">Elija Modelo</option>
+                <option value="2">VisionXPro One</option>
+                <option value="3">VisionXPro Future</option>
+                <option value="4">VisionXPro 3-attidnattive</option>
+              </select>
+            </div class="form-group text-center">
+            <button type="submit" class= "btn-reservar">Reservar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
